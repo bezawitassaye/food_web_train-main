@@ -1,0 +1,31 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  
+}
+
+body{
+  min-height: 100vh;
+  background-color: #cfcfcf;
+}
+
+a{
+  text-decoration: none;
+}
+
+hr{
+  border: none;
+  height: 1px;
+  border-color: #a9a9a9;
+}
+
+.app-content{
+  display: flex;
+}
+
+.flex-col{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
