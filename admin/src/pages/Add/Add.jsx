@@ -4,7 +4,7 @@ import axios from "axios"
 import { assets } from '../../assets/assets'
 import { toast } from 'react-toastify'
 const Add = () => {
-  const backendurl="http://localhost:4000"
+  const backendurl="https://food-web-train-main-backend.onrender.com"
   const [image,setimage] = useState(false)
   const [data,setdata] =useState({
     name:"",

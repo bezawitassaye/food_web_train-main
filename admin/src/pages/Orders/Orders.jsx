@@ -5,7 +5,7 @@ import { toast } from 'react-toastify';
 import { assets } from '../../assets/assets';
 
 const Orders = () => {
-  const backendurl = "http://localhost:4000";
+  const backendurl = "https://food-web-train-main-backend.onrender.com";
   const [orders, setorders] = useState([]);
 
   const fetchallorders = async () => {

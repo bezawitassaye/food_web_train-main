@@ -3,7 +3,7 @@ import "./List.css"
 import { toast } from 'react-toastify'
 import axios from 'axios'
 const List = () => {
-const backendurl="http://localhost:4000"
+const backendurl="https://food-web-train-main-backend.onrender.com"
 const [list,setList]=useState([])
 
 const fetchlist = async ()=>{
