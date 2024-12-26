@@ -14,7 +14,15 @@ const port = 4000;
 
 
 app.use(express.json());
-app.use(cors());
+app.use(
+    cors({
+   
+      origin:"https://food-web-train-main-frontend.onrender.com", // Frontend URL without trailing slash
+      methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
+     
+      credentials: true, // Allow cookies if needed
+    })
+  );
 
 connectdb();
 
