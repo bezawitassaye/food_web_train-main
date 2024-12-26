@@ -5,7 +5,7 @@ import axios from "axios"
 import {storecontext} from "../../conetext/Storecontex"
 const Loginpage = ({setchowLogin}) => {
     const {token,settoken} = useContext(storecontext)
-    const backendurl="https://food-web-train-main-backend.onrender.com";
+    const backendurl="http://localhost:4000";
 
     const [curstate,setcurstate] = useState("Login")
     const [data,setdata]=useState({
