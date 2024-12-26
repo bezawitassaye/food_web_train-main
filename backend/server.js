@@ -17,7 +17,8 @@ app.use(express.json());
 app.use(
     cors({
    
-      origin:"https://food-web-train-main-frontend.onrender.com", // Frontend URL without trailing slash
+      origin:"https://food-web-train-main-frontend.onrender.com",
+      origin:"https://food-web-train-main-admin.onrender.com", // Frontend URL without trailing slash
       methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
      
       credentials: true, // Allow cookies if needed
