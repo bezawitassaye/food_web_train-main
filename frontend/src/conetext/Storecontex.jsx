@@ -6,7 +6,7 @@ export const storecontext = createContext(null)
 
 
 const Storecontextprovider = (props)=>{
-    const backendurl="http://localhost:4000";
+    const backendurl="https://food-web-train-main-backend.onrender.com";
     const [cartitems,setcartitems]=useState({})
     const [token,settoken]= useState("")
     const [food_list,setfoodlist] =useState([])
