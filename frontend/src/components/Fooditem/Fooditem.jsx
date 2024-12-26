@@ -3,7 +3,7 @@ import "./Fooditem.css"
 import { assets } from '../../assets/assets'
 import { storecontext } from '../../conetext/Storecontex'
 const Fooditem = ({id,name,price,description,image}) => {
-  const backendurl="http://localhost:4000";
+  const backendurl="https://food-web-train-main-backend.onrender.com";
 
   const { cartitems, addtocart, removefromcart } = useContext(storecontext);
 
