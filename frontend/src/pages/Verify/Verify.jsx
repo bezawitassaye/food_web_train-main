@@ -7,7 +7,7 @@ const Verify = () => {
   const [searchparams,setsearchparams] = useSearchParams()
   const success = searchparams.get("success")
   const orderId = searchparams.get("orderId")
-  const backendurl="http://localhost:4000";
+  const backendurl="https://food-web-train-main-backend.onrender.com";
   const navigate = useNavigate()
 
   const verifypayment = async ()=>{

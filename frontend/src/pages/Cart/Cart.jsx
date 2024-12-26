@@ -5,7 +5,7 @@ import { useNavigate } from 'react-router-dom'
 const Cart = () => {
   const { cartitems, food_list, removefromcart,gettotalcartamount } = useContext(storecontext)
   const navigate = useNavigate()
-  const backendurl="http://localhost:4000";
+  const backendurl="https://food-web-train-main-backend.onrender.com";
   return (
     <div className='cart'>
       <div className="cart-items">

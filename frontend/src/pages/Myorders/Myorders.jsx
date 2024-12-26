@@ -5,7 +5,7 @@ import axios from 'axios'
 import { assets } from '../../assets/assets'
 const Myorders = () => {
     const {token} = useContext(storecontext)
-    const backendurl="http://localhost:4000";
+    const backendurl="https://food-web-train-main-backend.onrender.com";
     const [data,setdata]= useState([])
     const fetchordes= async()=>{
         const response = await axios.post(backendurl+"/api/order/userorders",{},{headers:{token}})

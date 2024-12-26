@@ -5,7 +5,7 @@ import axios from 'axios'
 import { useNavigate } from 'react-router-dom'
 const Placeorder = () => {
   const { cartitems, food_list, removefromcart,gettotalcartamount,token } = useContext(storecontext)
-  const backendurl="http://localhost:4000";
+  const backendurl="https://food-web-train-main-backend.onrender.com";
 
   const [data,setdata] = useState({
     firistname:"",
